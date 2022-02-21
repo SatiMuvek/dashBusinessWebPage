@@ -62,13 +62,13 @@ small {
 }
 
 .first {
-    background-image: url("https://i.imgur.com/5BYSreW.jpg");
+    background-image: url('../img/first.jpg');
 }
 .second {
-    background-image: url("https://i.imgur.com/emqOJ8m.jpg");
+    background-image: url("../img/second.jpg");
 }
 .dessert {
-    background-image: url("https://i.imgur.com/UIvZ0wJ.jpg");
+    background-image: url("../img/dessert.jpg");
 }
 .price {
     float: right;
