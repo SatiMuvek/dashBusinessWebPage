@@ -62,7 +62,7 @@ small {
 }
 
 .first {
-    background-image: url('../img/first.jpg');
+    background-image: url("../img/first.jpg");
 }
 .second {
     background-image: url("../img/second.jpg");
@@ -70,8 +70,16 @@ small {
 .dessert {
     background-image: url("../img/dessert.jpg");
 }
+.clearfix{
+    background-image: url("../img/drink.jpg");
+}
 .price {
     float: right;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 @media (max-width: 500px) {
     h1 {
