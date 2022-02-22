@@ -3,6 +3,7 @@ body {
     max-width: 600px;
     margin: 0 auto;
     background: #232323;
+    overflow: hidden;
 }
 div {
     height: 200px;
